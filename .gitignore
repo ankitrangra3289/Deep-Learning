@@ -1,4 +1,39 @@
+# Python bytecode and cache
 __pycache__/
-*.tar
-*.pkl
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Model files (Keras, PyTorch, etc.)
+*.h5
+*.hdf5
 *.keras
+*.ckpt
+*.pt
+*.onnx
+*.tflite
+
+# Pickled data
+*.pkl
+
+# Archives (e.g., downloaded datasets)
+*.tar
+*.tar.gz
+*.zip
+
+# Dataset folders (optional — adjust to match your folder)
+aircraft_damage_dataset_v1/
+
+# VS Code config
+.vscode/
+
+# Environment and logs
+.env
+.venv/
+*.log
+myenv/
+
+# OS files
+.DS_Store
+Thumbs.db
